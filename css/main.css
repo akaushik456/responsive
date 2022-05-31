@@ -878,7 +878,8 @@ b{
 }
 @media(max-width:380px) {
     header{
-         width: 90%;   
+         width: 90%;  
+         position: fixed; 
     }
     .specific-container{
         width: 90%;
