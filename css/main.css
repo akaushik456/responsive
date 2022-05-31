@@ -53,6 +53,9 @@ li a{
     font-weight: bold;
 
 }
+.specific-container .icon-bar{
+    display: none;
+}
 .user-section-container{
     width: 100%;
     background: url('../img/site.jpg') no-repeat;
@@ -274,10 +277,15 @@ b{
 .last-container{
     width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+.image-copy{
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
 }
 .image-ml1{
     width: 28%;
@@ -299,7 +307,7 @@ b{
     border-radius: 50px;
 }
 .image-ml3{
-    width: 23%;
+    width: 22%;
 }
 .image-ml3 img{
     width: 249px;
