@@ -332,7 +332,7 @@ b{
 }
 .footer-section{
     width: 104%;
-    background: url(../img/moon.jpg) no-repeat;
+    background: url(../img/lion.jpg) no-repeat;
     background-size: cover;
     padding: 12% 0;
 }
@@ -386,7 +386,7 @@ b{
 }
 .user-section-footer{
     width: 100%;
-    background: #000;
+    background: url(../img/aman.jpg.webp);
 }
 .footer-work-area{
     width: 100%;
@@ -907,21 +907,21 @@ b{
      }
      .user-navbar{
         display: none;
-    background: #000;
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    right: 0%;
-    z-index: -2;
-    top: -16px;
+        background: #000;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        right: 0%;
+        z-index: -2;
+        top: -16px;
      }
      .user-navbar li a{
         margin: 0;
-    display: block;
-    line-height: 2;
-    color: #ffff;
-    text-align: center;
-    padding: 0;
+        display: block;
+        line-height: 2;
+        color: #ffff;
+        text-align: center;
+        padding: 0;
         
      }
      .open{
@@ -1112,12 +1112,12 @@ b{
     }
     .ml-unordered-image li img{
         border-radius: 50%;
-    width: 163px;
-    height: 166px;
+        width: 163px;
+        height: 166px;
     }
     .ml-border-image h1{
         font-size: 20px;
-    line-height: 0;
+        line-height: 0;
     }
     .ml-loreum-text{
         font-size: 16px;
@@ -1214,11 +1214,14 @@ b{
         width: 100%;
     }
     .ml-123-footer-work-lists p{
-        font-size: 16px;
+        font-size: 18px;
+        color: #000;
     }
     .navbar-links a{
-        font-size: 20px;
+        font-size: 24px;
+        font-weight: 600;
         line-height: 1.5;
+        color: #000;
     }
     .ml-123-footer-work-lists .social-icon{
         width: 23%;
