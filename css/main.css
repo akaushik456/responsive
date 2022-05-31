@@ -1,0 +1,1220 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+.icon-bar{
+    font-size: 40px;
+}
+header {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    width: 100%;
+}       
+.specific-container{
+    width: 1200px;
+    margin: 0 auto;
+}   
+.menu-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    padding-top: 5%;
+}
+
+li a{
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.user-section-container{
+    width: 100%;
+    background: url('../img/site.jpg') no-repeat;
+    background-size: cover;
+    display:flex;
+    min-height: 800px;
+}
+
+.left-container{
+    width: 100%;
+    padding: 182px 0;
+    position: absolute;
+}
+.left-image{
+    width: 100%;
+}
+.left-image img{
+    width: 106px
+}
+.heading-astanga{
+    font-size: 41px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 13px;
+}
+.left-paragraph{
+    margin-left: 4%;
+    font-size: 37px;
+    word-spacing: 3px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+b{
+    color: #0b47a7;
+}
+.left-para{
+    margin-left: 4%;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.login-btn{
+    padding: 34px;
+}
+.login-btn a{
+    color: #ffffff;
+    border: 1px solid blue;
+    background: blue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 35px;
+}
+.user-section{
+    width: 100%;
+    text-align: center;
+}
+.user-section-heading{
+    font-size: 19px;
+    padding: 0;
+}
+.loreum-text{
+    font-size: 21px;
+    width: 100%;
+    font-weight: 900;
+}
+.down-cards{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 5%;
+}
+.ml-down-card-image{
+    width: 100%;
+    display: flex;
+}
+.ml-down-unordered-image{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+.ml-down-unordered-image li .card-image{
+    border: 1px solid rgba(0,0,0,.07);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 27px;
+    background: #f9f9f9;
+} 
+.card-image img{
+    width: 67px;
+}
+.card-image h2{
+    font-size: 26px;
+}
+.card-image p{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.posture-section{
+    width: 100%;
+    padding-top: 5%;
+}
+.right-posture-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.right-posture-image{
+    width: 43%;
+}
+.right-posture-image img{
+    width: 100%;
+}
+.left-posture-content{
+    width: 48%;
+}
+.left-posture-content h3{
+    font-size: 50px;
+}
+.left-posture-content p{
+    font-weight: 620;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+}
+.user-number{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.user-number p{
+    font-size: 35px;
+    letter-spacing: 0;
+    text-align: start;
+}
+.ml123{
+    font-size: 15px;
+}
+.user-section-slider{
+    width: 100%;
+}
+.right-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.iser{
+    width: 58%;
+    margin-top: -20px;
+}
+
+.right-content h5{
+    font-size: 45px;
+}
+.right-content-paragraph{
+    font-size: 18px;
+    margin-top: -28px;
+    letter-spacing: 2px;
+}
+.left-float-content{
+    width: 44%;
+}
+.left-float-content-image{
+    width: 100%;
+}
+.left-float-content-image img{
+    width: 100%;
+}
+.right-content-paragraph-ml2{
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 15px 0;
+}
+.ml3-lists{
+    display: flex;
+    width: 68%;
+    justify-content: space-between;
+    margin-top: -70px;
+}
+.ml3-lists h6{
+    font-size: 30px;
+}
+.ml1234{
+    font-size: 13px;
+    margin-left: 0px;
+}
+.ml-border-image{
+    width: 100%;
+    display: flex;
+}
+.ml-unordered-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 97%;
+    height: 100%;
+}
+.ml-unordered-image li img{
+    border-radius: 100%;
+    width: 240px;
+    height: 248px;
+}
+.ml-loreum-text{
+    margin-top: 0;
+}
+.last-container-heading{
+    font-weight: bold;
+    font-size: 35px;
+}
+.last-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.image-ml1{
+    width: 28%;
+}
+.ml-down-unordered-image li{
+    margin-right: 15px;
+}
+.image-ml1 img{
+    width: 321px;
+    height: 294px;
+    border-radius: 50px;
+}
+.image-ml2{
+    width: 48%;
+}
+.image-ml2 img{
+    width: 576px;
+    height: 291px;
+    border-radius: 50px;
+}
+.image-ml3{
+    width: 23%;
+}
+.image-ml3 img{
+    width: 249px;
+    height: 290px;
+    border-radius: 50px;
+}
+.image-ml4{
+    width: 50%;
+}
+.image-ml4 img{
+    width: 100%;
+    height: 305px;
+    border-radius: 50px;
+}
+.image-ml5{
+    width: 50%;
+}
+.image-ml5 img{
+    width: 93%;
+    height: 305px;
+    border-radius: 50px;
+}
+.footer-section{
+    width: 104%;
+    background: url(../img/moon.jpg) no-repeat;
+    background-size: cover;
+    padding: 12% 0;
+}
+.form-work-area{
+    border: 1px solid rgba(0,0,0,1.08);
+    width: 450px;
+    height: 550px;
+    padding: 0 64px;
+    border-radius: 45px;
+    background: #000;
+    opacity: .7;
+}
+.form-work-area h5{
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.form-work-area p{
+    font-size: 17px;
+    color: #ffffff;
+}
+.form-area{
+    line-height: 2.8;
+}
+.form{
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    width: 97%;
+    color: #ffff;
+    padding: 9px 0;
+    text-transform: capitalize;
+    background: none;
+    font-size: 18px;
+}
+.types{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+.form-btn{
+    padding: 58px 0;
+}
+.form-btn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    background: blue;
+    border: 1px solid blue;
+    padding: 15px 31px;
+    border-radius: 50px;
+}
+.user-section-footer{
+    width: 100%;
+    background: #000;
+}
+.footer-work-area{
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+}
+.ml-123-footer-work-area{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.ml-123-footer-work-lists{
+    width: 100%;
+}
+.navbar-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: -9px;
+    width: 60%;
+}
+.footer-image{
+    width: 100%;
+}
+.footer-image img{
+    width: 80px;
+}
+.ml-123-footer-work-lists p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar-links a{
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.7;
+}
+.user-mail{
+    padding: 10px 8px;
+    width: 67%;
+    background: #000;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.user-subscribe{
+    padding: 11px 13px;
+    background: #0b47a7;
+    color: #ffff;
+    border-radius: 8px;
+    margin-left: -4px;
+}
+
+@media(max-width:1200px) {
+    header{
+        width: 80%;
+    }
+    .user-section{
+        width: 100%;
+    }
+    .user-section-container{
+        background: none;
+        width: 100%;
+    }
+    .specific-container{
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .menu-links{
+        width: 100%;
+    }
+    .specific-container .icon-bar{
+        display: none;
+    }
+    .left-container{
+        width: 90%;
+    }
+    .left-paragraph{
+        font-size: 26px;
+    }
+    .down-cards{
+        width: 100%;
+    }
+    .last-container{
+        width: 90%;
+    }
+    .ml-border-image{
+        width: 95%;
+    }
+    .ml-unordered-image{
+        width: 100%;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .ml-unordered-image li{
+        width: 50%;
+    }
+    .image-ml1{
+        width: 28%;
+    }
+    .image-ml1 img{
+        width: 264px;
+        height: 280px;
+        border-radius: 50px;
+    }
+    .image-ml2{
+        width: 47%;
+    }
+    .image-ml2 img{
+        width: 430px;
+        height: 291px;
+        border-radius: 50px;
+    }
+    .image-ml3{
+        width: 23%;
+    }
+    .image-ml3 img{
+        width: 243px;
+        height: 290px;
+        border-radius: 50px;
+    }
+    .image-ml4{
+        width: 50%;
+    }
+    .image-ml4 img{
+        width: 478px;
+        height: 305px;
+        border-radius: 50px;
+    }
+    .image-ml5{
+        width: 47%;
+    }
+    .image-ml5 img{
+        width: 441px;
+        height: 305px;
+        border-radius: 50px;
+    }
+    .right-posture-content{
+        width: 100%;
+    }
+    .right-posture-image{
+        width: 50%;
+    }
+    .right-posture-image img{
+        width: 450px;
+    }
+    .left-posture-content{
+        width: 70%;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .iser{
+        width: 50%;
+    }
+    .left-float-content{
+        width: 50%;
+    }
+    .left-float-content-image{
+        width: 50%;
+    }
+    .left-float-content-image img{
+        width: 450px;
+    }
+    .right-content-paragraph{
+        letter-spacing: 0;
+        font-weight: bold;
+    }
+    .right-content-paragraph-ml2{
+        letter-spacing: 0;
+        font-weight: bold;
+    }
+    .user-section-footer{
+        width: 100%;
+    }
+    .footer-work-area{
+        width: 108%;
+    }
+    .ml-123-footer-work-area{
+        width: 100%;
+        padding: 0;
+    }
+    .ml-123-footer-work-lists{
+        width: 50%;
+    }
+    .navbar-links{
+        width: 90%;
+    }
+}
+@media(max-width:980px) {
+    header{
+        width: 90%;
+    }
+    .user-section{
+        width: 100%;
+        margin: 0;
+    }
+    .specific-container{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .image-copy{
+        width: 100%;
+    }
+}
+
+@media(max-width:780px) {
+    
+}
+
+@media(max-width:680px) {
+    header{
+         width: 100%;   
+    }
+    .specific-container{
+        width: 680px;
+        margin: 0 auto;
+    }
+    .user-section-container{
+        width: 100%;
+        min-height: 320px;
+    }
+    .left-container{
+        padding: 0;
+    }
+    .specific-container .icon-bar{
+        display: block;
+        float: right;
+        padding: 4px 10px;
+        border-radius: 9px;
+        font-size: 25px;
+        color: #fff;
+        background: #000;
+        margin-right: 9px;
+        margin-top: 5px;
+     }
+     .user-navbar{
+        display: none;
+        background: #000;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        right: 0%;
+        z-index: -2;
+        top: -16px;
+     }
+     .user-navbar li a{
+        display: block;
+        line-height: 2;
+        color: #ffff;
+        text-align: center;
+        
+     }
+     .open{
+         display: none;
+     }
+     .left-image img{
+         width: 60px;
+     }
+     .left-paragraph{
+         font-size: 19px;
+     }
+     .left-para{
+        font-size: 13px;
+     }
+     .heading-astanga{
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 4px;
+     }
+     .login-btn a{
+        font-size: 15px;
+        padding: 8px 19px;
+     }
+     .user-section{
+         width: 100%;
+     }
+     .user-section-heading{
+         font-size: 22px;
+     }
+     .loreum-text{
+         font-size: 14px;
+     }
+     .down-cards{
+        width: 100%;
+    }
+    .ml-down-card-image{
+        width: 70%;
+        display: flex;
+    }
+    .ml-down-unordered-image{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ml-down-unordered-image li{
+        margin-right: 0;
+    }
+    .ml-down-unordered-image li .card-image{
+        margin-left: 30%;
+        width: 75%;
+        height: 50%;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    .posture-section{
+        width: 90%;
+    }
+    .right-posture-content{
+        width: 85%;
+    }
+    .right-posture-image{
+        width: 30%;
+        display: flex;
+    }
+    .right-posture-image img{
+         width: 290px;
+    }
+    .left-posture-content{
+        width: 59%;
+    }
+    .left-posture-content h3{
+        font-size: 20px;
+    }
+    .left-posture-content p{
+        font-size: 11px;
+        line-height: 1;
+    }
+    .user-number{
+        width: 112%;
+        display: flex;
+        align-items: baseline;
+    }
+    .user-number p{
+        font-size: 19px;
+    }
+    .right-content{
+        width: 90%;
+        display: flex;
+    }
+    .iser{
+        width: 50%;
+    }
+    .right-content h5{
+        font-size: 25px;
+    }
+    .right-content-paragraph{
+        font-size: 13px;
+    }
+    .right-content-paragraph-ml2{
+        font-size: 13px;
+    }
+    .ml3-lists{
+        width: 114%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .ml3-lists h6{
+        font-size: 19px;
+    }
+    .ml1234{
+        font-size: 12px;
+    }
+    .left-float-content{
+        width: 51%;
+    }
+    .left-float-content-image{
+        width: 100%;
+    }
+    .left-float-content-image img{
+        width: 288px;
+        height: 403px;
+    }
+    .ml-border-image{
+        width: 90%;
+    }
+    .ml-down-unordered-image{
+        width: 98%;
+    }
+    .ml-unordered-image li{
+        width: 50%;
+    }
+    .ml-unordered-image li img{
+        border-radius: 100%;
+        width: 230px;
+        height: 227px;
+    }
+    .ml-border-image h1{
+        font-size: 17px;
+        line-height: 0;
+    }
+    .ml-loreum-text{
+        font-size: 13px;
+        margin-top: 0;
+    }
+    .last-container{
+        width: 90%;
+        display: flex;
+    }
+    .image-copy{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-ml1{
+        width: 50%;
+    }
+    .image-ml1 img{
+        width: 150px;
+        height: 230px;
+    }
+    .image-ml2{
+        width: 50%;
+    }
+    .image-ml2 img{
+        width: 330px;
+        height: 223px;
+    }
+    .image-ml3{
+        width: 50%;
+    }
+    .image-ml3 img{
+        width: 150px;
+        height: 230px
+    }
+    .image-ml4{
+        width: 50%;
+    }
+    .image-ml4 img{
+        width: 330px;
+        height: 223px;
+    }
+    .image-ml5{
+        width: 50%;
+    }
+    .image-ml5 img{
+        width: 350px;
+        height: 280px;
+    }
+    .copying{
+        width: 50%;
+    }
+    .copying img{
+        width: 190px;
+        height: 284px;
+    }
+    .footer-section{
+        width: 100%;
+    }
+    .form-work-area{
+        width: 400px;
+        height: 500px;
+    }
+    .form-work-area h5{
+        font-size: 30px;
+    }    
+    .form-work-area p{
+         font-size: 15px;
+    }
+    .form-btn{
+        padding: 45px 0;
+    }
+    .form-btn a{
+        padding: 13px 15px;
+    }
+    .user-section-footer{
+        width: 100%;
+    }
+    .footer-work-area{
+        width: 100%;
+        display: flex;
+    }
+    .ml-123-footer-work-area{
+        display: flex;
+        flex-wrap: wrap;
+        width: 87%;
+    }
+    .ml-123-footer-work-lists{
+        width: 50%;
+    }
+    .ml-123-footer-work-lists p{
+        font-size: 15px;
+    }
+    .navbar-links a{
+        font-size: 15px;
+    }
+}
+@media(max-width:380px) {
+    header{
+         width: 90%;   
+    }
+    .specific-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .user-section-container{
+        width: 100%;
+        min-height: 320px;
+    }
+    .left-container{
+        padding: 0;
+        width: 100%;
+        position: relative;
+    }
+    .specific-container .icon-bar{
+        display: block;
+        float: right;
+        padding: 7px 10px;
+        border-radius: 9px;
+        font-size: 19px;
+        color: #fff;
+        background: #000;
+        margin-right: -41px;
+        margin-top: 5px;
+     }
+     .user-navbar{
+        display: none;
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    right: 0%;
+    z-index: -2;
+    top: -16px;
+     }
+     .user-navbar li a{
+        margin: 0;
+    display: block;
+    line-height: 2;
+    color: #ffff;
+    text-align: center;
+    padding: 0;
+        
+     }
+     .open{
+         display: block;
+     }
+     .left-image img{
+         width: 51px;
+     }
+     .left-paragraph{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+        padding-top: 30px;
+     }
+     .left-para{
+        font-size: 19px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+     }
+     .heading-astanga{
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 4px;
+     }
+     .login-btn a{
+        font-size: 19px;
+        padding: 8px 19px;
+     }
+     .user-section{
+         width: 100%;
+     }
+     .user-section-heading{
+        font-size: 19px;
+        padding: 0;
+     }
+     .loreum-text{
+        font-size: 21px;
+        width: 100%;
+        font-weight: 900;
+     }
+     .down-cards{
+        width: 100%;
+    }
+    .ml-down-card-image{
+        width: 100%;
+        display: flex;
+    }
+    .ml-down-unordered-image{
+        width: 100%;
+        
+    }
+    .ml-down-unordered-image li{
+        margin-right: 0;
+    }
+    .card-image img{
+        width: 60px;
+    }
+    .ml-down-unordered-image li .card-image{
+        margin-left:9%;
+        margin-left: 0%;
+        width: 100%;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    .card-image h2 {
+        font-size: 21px;
+    }
+    .card-image p{
+        font-size: 13px;
+        line-height: 1.2;
+    }
+    
+    .posture-section{
+        width: 100%;
+    }
+    .right-posture-content{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .right-posture-image{
+        justify-content: center;
+        width: 100%;
+        display: flex;
+    }
+    .right-posture-image img{
+         width: 200px;
+    }
+    .left-posture-content{
+        width: 100%;
+        text-align: center;
+    }
+    .left-posture-content h3{
+        font-size: 20px;
+    }
+    .left-posture-content p{
+        font-size: 16px;
+        line-height: 1.7;
+        margin: 0;
+        padding: 0;
+    }
+    .user-number{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    b{
+        font-size: 24px;
+    }
+    .user-number p{
+        font-size: 14px;
+        margin-top: 8%;
+    }
+    .ml123{
+        font-size: 20px;
+    }
+    .right-content{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .iser{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.4;
+    }
+    .right-content h5{
+        font-size: 25px;
+        text-align: center;
+        padding: 0;
+    }
+    .right-content-paragraph{
+        font-size: 17px;
+    }
+    .right-content-paragraph-ml2{
+        font-size: 17px;
+        margin: 0;
+    }
+    .ml3-lists{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        padding: 0;
+    }
+    .ml3-lists h6{
+        padding: 0;
+        font-size: 19px;
+        margin: 0;
+        margin-top: 18px;
+    }
+    .ml1234{
+        font-size: 16px;
+    }
+    .left-float-content{
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+    .left-float-content-image{
+        width: 100%;
+    }
+    .left-float-content-image img{
+        width: 250px;
+    }
+    .ml-border-image{
+        width: 90%;
+        display: flex;
+    }
+  
+    .ml-unordered-image{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .ml-unordered-image li{
+        width: 100%;
+    }
+    .ml-unordered-image li img{
+        border-radius: 50%;
+    width: 163px;
+    height: 166px;
+    }
+    .ml-border-image h1{
+        font-size: 20px;
+    line-height: 0;
+    }
+    .ml-loreum-text{
+        font-size: 16px;
+    font-weight: 600;
+    }
+    .last-container{
+        width: 100%;
+        display: flex;
+    }
+    .image-copy{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .image-ml1{
+        width: 50%;
+    }
+    .image-ml1 img{
+        width: 320px;
+        height: 230px;
+    }
+    .image-ml2{
+        width: 50%;
+    }
+    .image-ml2 img{
+        width: 313px;
+        height: 223px;
+    }
+    .image-ml3{
+        width: 50%;
+    }
+    .image-ml3 img{
+        width: 310px;
+        height: 230px;
+    }
+    .image-ml4{
+        width: 50%;
+    }
+    .image-ml4 img{
+        width: 308px;
+        height: 223px;
+    }
+    .image-ml5{
+        width: 50%;
+    }
+    .image-ml5 img{
+        width: 317px;
+        height: 280px;
+    }
+    .copying{
+        width: 50%;
+    }
+    .copying img{
+        width: 315px;
+        height: 284px;
+    }
+    .footer-section{
+        width: 100%;
+    }
+    .form-work-area{
+        width: 350px;
+        height: 500px;
+        padding: 0 25px;
+    }
+    .form-work-area h5{
+        font-size: 25px;
+        padding: 0;
+    }    
+    .form-work-area p{
+         font-size: 18px;
+    }
+    .types{
+        font-size: 13px;
+    }
+    .form-btn{
+        padding: 45px 0;
+    }
+    .form-btn a{
+        padding: 10px 8px;
+    }
+    .user-section-footer{
+        width: 100%;
+    }
+    .footer-work-area{
+        width: 100%;
+        display: flex;
+    }
+    .ml-123-footer-work-area{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ml-123-footer-work-lists{
+        width: 100%;
+    }
+    .ml-123-footer-work-lists p{
+        font-size: 16px;
+    }
+    .navbar-links a{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .ml-123-footer-work-lists .social-icon{
+        width: 23%;
+    }
+    .ml-123-footer-work-lists .social-icon:hover{
+        color: white;
+    }
+}
